@@ -88,26 +88,30 @@
 
 <section class="section pb-0">
   <div class="container">
-    <div class="row justify-content-center rounded shadow p-4">
+    <div class="row justify-content-center rounded shadow px-3 pt-2 pb-3">
       <div class="col-lg-6 home-code">
-        <h4>Get Started Quickly</h4>
+        <h4 class="pt-4">Get Started Quickly</h4>
         <!-- <img loading="lazy" src="{{ .Site.Params.banner.image | absURL }}" alt="illustration" class="img-fluid"> -->
-        <h6 class="pb-2 pt-4">1. Download GetIstio</h5>
+        <h6 class="py-2">1. Download GetIstio</h5>
           <pre class="pb-2 home-code-snippet"><code>curl -sL https://tetrate.bintray.com/getistio/download.sh | bash</code><span class="copy-to-clipboard">copy</span></pre>
-        <h6 class="pb-2 pt-4">2. Install Istio Demo</h5>
+        <h6 class="py-2">2. Install Istio Demo</h5>
           <pre class="pb-2 home-code-snippet"><code>getistio istioctl install --set profile=demo </code><span class="copy-to-clipboard">copy</span></pre>
-        <h6 class="pb-2 pt-4">3. Check GetIstio version</h5>
+        <h6 class="py-2">3. Check GetIstio version</h5>
           <pre class="pb-2 home-code-snippet"><code>getistio version</code><span class="copy-to-clipboard">copy</span></pre>
-        <h6 class="pb-2 pt-4">4. Validate config</h5>
+        <h6 class="py-2">4. Validate config</h5>
           <pre class="pb-2 home-code-snippet"><code>getistio config-validate</code><span class="copy-to-clipboard">copy</span></pre>
-        <div class="pt-4 row justify-content-center">
-          <a href="/how-do-i-install-cli/" class="btn btn-sm learn-more">Learn more</a>
-        </div>
       </div>
       <div class="col-lg-6 home-video">
-        <h4>See GetIstio in Action</h4>
+        <h4 class="pt-4">See GetIstio in Action</h4>
         {{/*  <script id="asciicast-386188" src="https://asciinema.org/a/386188.js" data-size="small" async></script>  */}}
-        <asciinema-player src="/videos/386188.cast"></asciinema-player>
+        <div class="mt-4">
+          <asciinema-player src="/videos/386188.cast" font-size="11px"></asciinema-player>
+        </div>
+      </div>
+      <div class="col-lg-12 home-code">
+        <div class="pt-4 pb-4 row justify-content-center">
+          <a href="/how-do-i-install-cli/" class="btn btn-sm learn-more">Learn more</a>
+        </div>
       </div>
     </div>
   </div>

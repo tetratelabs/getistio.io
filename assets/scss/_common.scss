@@ -1,3 +1,5 @@
+$breakpoint-tablet: 768px;
+
 body {
   background-color: $body-color;
   overflow-x: hidden;
@@ -471,12 +473,11 @@ button.btn {
   }
 }
 
-// .home-video {
-//   asciinema-player {
-//     width: 320px;
-//     height: 240px;
-//   }
-// }
+.home-video {
+  .asciinema-terminal {
+    height: 361px !important;
+  }
+}
 
 .link-blue {
   color: $primary-color;
