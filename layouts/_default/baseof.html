@@ -6,7 +6,9 @@
 	{{- partialCached "preloader.html" . -}}
 	{{- partial "header.html" . -}}
 	{{- block "main" . }}{{- end }}
-	{{- partialCached "footer.html" . -}}
+  {{- partialCached "footer.html" . -}}
+  <!-- asciinema js -->
+  <script src="{{ .Site.BaseURL }}js/asciinema-player.js"></script>
 </body>
 
 </html>

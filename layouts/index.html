@@ -88,8 +88,8 @@
 
 <section class="section pb-0">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-9 home-code rounded shadow p-4">
+    <div class="row justify-content-center rounded shadow p-4">
+      <div class="col-lg-6 home-code">
         <h4>Get Started Quickly</h4>
         <!-- <img loading="lazy" src="{{ .Site.Params.banner.image | absURL }}" alt="illustration" class="img-fluid"> -->
         <h6 class="pb-2 pt-4">1. Download GetIstio</h5>
@@ -104,11 +104,16 @@
           <a href="/how-do-i-install-cli/" class="btn btn-sm learn-more">Learn more</a>
         </div>
       </div>
+      <div class="col-lg-6 home-video">
+        <h4>See GetIstio in Action</h4>
+        {{/*  <script id="asciicast-386188" src="https://asciinema.org/a/386188.js" data-size="small" async></script>  */}}
+        <asciinema-player src="/videos/386188.cast"></asciinema-player>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="section pb-0">
+{{/*  <section class="section pb-0">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-10 home-code rounded shadow p-4">
@@ -117,7 +122,7 @@
       </div>
     </div>
   </div>
-</section>
+</section>  */}}
 
 <!-- topics -->
 <section class="section page-section pb-0">

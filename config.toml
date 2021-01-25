@@ -15,6 +15,10 @@ home = [ "HTML", "JSON"]
 [markup.goldmark.renderer]
 unsafe = true
 
+# asciinema
+asciinema_css = ["css/asciinema-player.css"]
+asciinema_js = ["css/asciinema-player.js"]
+
 ############################# Plugins ##############################
 
 # CSS Plugins

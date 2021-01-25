@@ -448,9 +448,10 @@ button.btn {
     font-size: 16px;
   }
 }
+
 .home-code {
   background-color: white;
-  margin-top: 40px;
+  // margin-top: 40px;
 
   .learn-more {
     color: $primary-color;
@@ -469,6 +470,14 @@ button.btn {
     color: #e8b3b3;
   }
 }
+
+// .home-video {
+//   asciinema-player {
+//     width: 320px;
+//     height: 240px;
+//   }
+// }
+
 .link-blue {
   color: $primary-color;
   transition: all .3s;
