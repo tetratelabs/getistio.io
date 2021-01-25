@@ -108,6 +108,19 @@ a:hover {
 
 .cta-section {
   padding-top: 40px;
+
+  .box {
+    padding: 32px;
+  }
+
+  p {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .form-control {
+    margin-top: 24px
+  }
 }
 
 .bg-cover {
