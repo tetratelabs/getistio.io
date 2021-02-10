@@ -6,7 +6,7 @@ author: "Tevah Platt"
 # meta description
 # thumbnail
 thumbnail: "/images/introducing-getistio.png"
-tags: ["getisio"]
+tags: ["getistio"]
 ---
 Istio is one of the most popular and [fast-growing](https://octoverse.github.com/2019/) open-source projects in the cloud-native world; while this growth speaks volumes about the value users get from Istio, its rapid release cadence can also be a challenge for users who may be managing several different versions of Istio clusters at the same time and manually configuring CA certificates for cloud platforms.
 
